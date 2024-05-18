@@ -14,7 +14,7 @@ Social Connect es una red social básica construida con React y Tailwind CSS com
 - **Frontend**: 
   - [React](https://reactjs.org/)
   - [Tailwind CSS](https://tailwindcss.com/)
-- **Backend**: (Opcional, si lo tienes)
+- **Backend**:
   - [Firebase](https://firebase.google.com)
 - **Autenticación**:
   - [Firebase Authentication](https://firebase.google.com/products/auth)
