@@ -1,4 +1,4 @@
-import { Navbar, Footer } from './components'
+import { Navbar, Footer, Home } from './components'
 
 function App() {
 
@@ -6,7 +6,7 @@ function App() {
     <div className='flex flex-col min-h-screen'>
       <Navbar />
       <div className='flex-grow'>
-          Hello world!
+          <Home />
       </div>
       <Footer />
     </div>
