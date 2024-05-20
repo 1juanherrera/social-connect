@@ -2,24 +2,17 @@
 
 const Footer = () => {
     return (
-        <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-900">
-            <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
-            </span>
-                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-                    <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">About</a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline">Contact</a>
-                    </li>
-                </ul>
+        <footer className="bg-gray-800 rounded-lg m-2 dark:bg-gray-900 shadow text-white">
+            <div className="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+                <div className="text-center md:text-left">
+                    <span className="text-sm text-white dark:text-gray-300">© 2023 <a href="https://flowbite.com/" className="hover:text-gray-300">Flowbite™</a>. All Rights Reserved.</span>
+                </div>
+                <div className="mt-3 md:mt-0 md:flex">
+                    <a href="#" className="px-3 py-2 text-sm font-medium text-white uppercase hover:text-gray-300">About</a>
+                    <a href="#" className="px-3 py-2 text-sm font-medium text-white uppercase hover:text-gray-300">Privacy Policy</a>
+                    <a href="#" className="px-3 py-2 text-sm font-medium text-white uppercase hover:text-gray-300">Licensing</a>
+                    <a href="#" className="px-3 py-2 text-sm font-medium text-white uppercase hover:text-gray-300">Contact</a>
+                </div>
             </div>
         </footer>
     )
